@@ -7,7 +7,7 @@
     align-items: center;
     justify-content:space-around;
     width: 100%;
-    padding: 8px 16px;
+    padding: 3px;
     background: #fbdc00;
     font-size: 14px;
     font-family: "PT Sans",sans-serif;
@@ -18,37 +18,35 @@
 ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
-    margin-right: auto;
-    margin-left: auto;
-  }
+}
 
 li{
     display: inline;
     justify-content: space-evenly;
-    padding-inline: 10px;
+    padding-inline: 25px;
+    font-size: 16px;
 }
 
 .loginbtn{
     border-radius: 8px !important;
     background-color: #fbdc00;
     border-color: #fbdc00;
-    box-shadow: none;
     font-size: 14px;
     font-family: "PT Sans",sans-serif;
     font-style: bold;
+    border-style: none;
 }
 
 .signinbtn{
     background-color: #ee3425;
     border-color: #ee3425;
     border-radius: 8px !important;
-    box-shadow: none;
     height: 36px;
     padding: 4px 16px;
     color: white;
     font-size: 14px;
     font-family: "PT Sans",sans-serif;
     font-style: bold;
+    border-style: none;
 }
 
