@@ -35,7 +35,7 @@
     height: auto;
     position: relative;
     margin: 0 auto;
-    padding: 0px 80px;
+    padding: 0px 200px;
     display: flex;
     flex: 1;
     justify-content: center;
@@ -130,7 +130,7 @@ body
 }
 
 .info{
-    margin: 0px 85px;
+    margin: 0px 180px;
     display: flex;
     justify-content:space-between;
     align-items:stretch;
@@ -155,10 +155,129 @@ body
 
 .onestop{
     margin-top: 100px;
+    background-color: #FFFEF2 ;
+    margin-bottom: 0px;
 }
 
 .one-img{
     width: 500px;
     margin-top: 40px;
     padding-left: 40px;
+}
+.prod{
+    margin-top: 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFEF2;
+    font-family: "Ubuntu",sans-serif;
+    padding: 0px 170px;
+}
+
+.prod-head{
+    font-size: 18px;
+    padding: 10px;
+}
+
+.items{
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    justify-self: flex-start;
+    padding: 10px;
+}
+
+.item-head{
+    font-size: 15px;
+    font-style: bold;
+    text-align: left;
+    width: 350px !important;
+    display: flex;
+    justify-content: ;
+    align-items: center;
+}
+
+h4{
+    justify-content: center;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+h5{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    color: #ee3425;
+}
+
+
+.item{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    width: 164px;
+    height: 140px;
+    padding: 10px 7px;
+    margin: 10px;
+    background: #fff;
+    border:#fff;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
+}
+
+.trust{
+    margin-top: 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Ubuntu",sans-serif;
+}
+
+ 
+.photobanner {
+	height: 233px;
+	width: 3550px;
+	margin-bottom: 80px;
+}
+
+img {
+  display: inline-block;
+}
+
+#container {
+	width: 1000px;
+    height: 200px;
+	margin: 50px auto;
+	background: white;
+}
+
+/*keyframe animations*/
+.first {
+	        animation: bannermove 5s linear infinite;
+}
+ 
+@keyframes bannermove {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -1125px;
+ }
+ 
+}
+ 
+.ready{
+    padding: 20px;
+    background-color: #fbdc00;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.ready-box{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
 }
