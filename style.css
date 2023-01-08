@@ -1,3 +1,37 @@
+/* PREDEFINED STYLING CHANGES */
+
+body
+{
+    margin: 0;
+}
+
+h4{
+    justify-content: center;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+h5{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    color: #ee3425;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li{
+    display: inline;
+    justify-content: space-evenly;
+    padding-inline: 25px;
+    font-size: 16px;
+}
+
+/* TOP BAR STYLING */
+
 .top-bar{
     position: fixed;
     top: 0;
@@ -22,6 +56,33 @@
     background-size: 100% 100% ;
     background-repeat: no-repeat;
 }
+
+/* NAVIGATION BAR STYLING */
+
+.loginbtn{
+    border-radius: 8px !important;
+    background-color: #fbdc00;
+    border-color: #fbdc00;
+    font-size: 14px;
+    font-family: "PT Sans",sans-serif;
+    font-style: bold;
+    border-style: none;
+}
+
+.signinbtn{
+    background-color: #ee3425;
+    border-color: #ee3425;
+    border-radius: 8px !important;
+    height: 36px;
+    padding: 4px 16px;
+    color: white;
+    font-size: 14px;
+    font-family: "PT Sans",sans-serif;
+    font-style: bold;
+    border-style: none;
+}
+
+/* BANNER POSTER STYLING */
 
 .poster{
     margin-top: 55px;
@@ -71,41 +132,6 @@
     text-align: left;
 }
 
-ul {
-    list-style-type: none;
-    display: flex;
-}
-
-li{
-    display: inline;
-    justify-content: space-evenly;
-    padding-inline: 25px;
-    font-size: 16px;
-}
-
-.loginbtn{
-    border-radius: 8px !important;
-    background-color: #fbdc00;
-    border-color: #fbdc00;
-    font-size: 14px;
-    font-family: "PT Sans",sans-serif;
-    font-style: bold;
-    border-style: none;
-}
-
-.signinbtn{
-    background-color: #ee3425;
-    border-color: #ee3425;
-    border-radius: 8px !important;
-    height: 36px;
-    padding: 4px 16px;
-    color: white;
-    font-size: 14px;
-    font-family: "PT Sans",sans-serif;
-    font-style: bold;
-    border-style: none;
-}
-
 .homebut{
     background-color: #ee3425;
     border-color: #ee3425;
@@ -127,10 +153,7 @@ li{
     text-align: center;
 }
 
-body
-{
-    margin: 0;
-}
+/* INFORMATION SECTION STYLING */
 
 .info{
     margin: 0px 180px;
@@ -156,6 +179,8 @@ body
     align-items: center;
 }
 
+/* ONE STOP SOLUTION BANNER */
+
 .onestop{
     margin-top: 100px;
     background-color: #FFFEF2 ;
@@ -167,6 +192,9 @@ body
     margin-top: 40px;
     padding-left: 40px;
 }
+
+/* PRODUCT VARITIES STYLING  */
+
 .prod{
     margin-top: 0px;
     text-align: center;
@@ -201,20 +229,6 @@ body
     align-items: center;
 }
 
-h4{
-    justify-content: center;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 10px;
-}
-
-h5{
-    margin-top: 0px;
-    margin-bottom: 3px;
-    color: #ee3425;
-}
-
-
 .item{
     position: relative;
     display: flex;
@@ -231,6 +245,8 @@ h5{
     border-radius: 10px;
     box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
 }
+
+/* INFINITE CAROUSEL */
 
 .trust{
     margin-top: 0px;
@@ -273,6 +289,8 @@ img {
  
 }
  
+/* GET STARTED BANNER */
+
 .ready{
     padding: 20px;
     background-color: #fbdc00;
@@ -284,6 +302,8 @@ img {
     justify-content:space-around;
     align-items: center;
 }
+
+/* INDUSTRIES SERVED BANNER */
 
 .iser{
     font-size: 20px;
@@ -298,6 +318,8 @@ img {
     align-items: center;
 
 }
+
+/* GET STARTED BANNER */
 
 .gts{
     margin-top: 100px;
