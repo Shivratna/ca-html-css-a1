@@ -1,4 +1,7 @@
 /* PREDEFINED STYLING CHANGES */
+* {
+    box-sizing: border-box;
+}
 
 body
 {
@@ -175,10 +178,9 @@ li{
 /* INFORMATION SECTION STYLING */
 
 .info{
-    margin: 0px 100px;
     display: flex;
-    justify-content:space-between;
-    align-items:stretch;
+    justify-content:space-evenly;
+    align-items:center;
 }
 
 .num{
@@ -215,13 +217,13 @@ li{
 /* PRODUCT VARITIES STYLING  */
 
 .prod{
-    margin-top: 0px;
+    margin: auto;
+    position: relative;
     text-align: center;
-    justify-content: center;
     align-items: center;
+    align-content: center;
     background-color: #FFFEF2;
     font-family: "Ubuntu",sans-serif;
-    padding: 0px 100px;
 }
 
 .prod-head{
@@ -230,7 +232,10 @@ li{
 }
 
 .item-box{
-    text-align: left;
+    margin: auto;
+    position: relative;
+    align-content: center;
+    width: max-content;
 }
 
 .items{
@@ -238,17 +243,18 @@ li{
     text-align: left;
     justify-content: left;
     align-items: left;
-    padding: 10px;
+    width: max-content;
 }
 
 .item-head{
     font-size: 10px;
     font-style: bold;
     text-align: left;
-    width: 320px !important;
+    width: 350px !important;
     display: flex;
     justify-content: left;
     align-items: center;
+    padding-right: 20px;
 }
 
 .item{
@@ -317,14 +323,13 @@ li{
 /* READY BANNER */
 
 .ready{
-    padding: 20px;
     background-color: #fbdc00;
     margin-bottom: 50px;
     font-size: 20px;
 }
 .ready-box{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     align-items: center;
 }
 
@@ -427,7 +432,6 @@ li{
 
 .iser{
     font-size: 20px;
-    padding: 20px 50px;
     background-color:#FFFEF2;
 }
 
@@ -594,7 +598,6 @@ li{
     background-color: #fede00;
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
-    padding: 30px;
     margin-top: 50px;
 }
 
@@ -653,11 +656,15 @@ input{
 /* COMPANY INFORMATION */
 
 .cmp-info{
+
+}
+.cmp-box{
     display: flex;
     font-family: "Ubuntu",sans-serif;
     background-color: #fede00;
-    padding: 30px 50px;
-    justify-content: space-around;
+    justify-content:space-between;
+    text-align: left;
+    padding: 0px 50px;
 }
 
 .sec{
@@ -696,18 +703,19 @@ b{
 /* PORTS AND ENDING STYLING */
 
 .ports{
+
     display: flex;
     font-family: "Ubuntu",sans-serif;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0px 50px;
 }
 
 .port-box{
     background-color:#EBBE00;
-    padding: 20px 50px;
 }
 
 .end{
-    padding-top: 20px;
+    padding: 20px 50px 0px 50px;
     display: flex;
     justify-content: space-between;
 }
