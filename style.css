@@ -328,7 +328,6 @@ li{
 .htw{
     justify-content: space-around;
     align-items: center;
-    padding: 5px 30px;
     font-family: "Ubuntu",sans-serif;
 }
 
@@ -336,6 +335,7 @@ li{
     justify-content: space-around;
     align-items: center;
     text-align: center;
+    padding: 0px 90px;
 }
 
 .htw-btn{
@@ -362,28 +362,62 @@ li{
 
 .stage-box{
     align-items: center;
-    text-align: left;
-    width: 250px;
     padding: 16px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     border-radius: 10px;
     box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
+    width: 280px;
 }
 
 .stages{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .stage{
     justify-content: space-between;
+    font-family: "PT sans",sans-serif;
+    text-align: left;
 }
 .stage-img{
     height: 320px;
     width: 560px;
 }
 
+.stage-num{
+    color: #ee3425;
+    font-weight: bold;
+}
+
+.stage-name{
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #434343;
+}
+
+.btw-arnu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -370px;
+    padding-bottom: 300px;
+}
+
+.btw-arnb{
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-between;
+}
+.btw-img{
+    width: 150px;
+}
+
+.p{
+   padding: 3px 0px; 
+}
 /* INDUSTRIES SERVED BANNER */
 
 .iser{
