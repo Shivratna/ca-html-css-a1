@@ -323,6 +323,67 @@ li{
     align-items: center;
 }
 
+
+/* HOW IT WORKS SECTIONS */
+.htw{
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 30px;
+    font-family: "Ubuntu",sans-serif;
+}
+
+.htw-box{
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.htw-btn{
+    justify-content: space-evenly;
+}
+
+.btn{
+    background-color: #fede00;
+    width: 200px;
+    border-radius: 40px;
+    border-color: transparent;
+    height: 40px;
+    font-weight: bold;
+    margin: 20px 20px;
+}
+
+.btn2{
+    background-color:#e0e0e0;
+}
+.htw-head{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.stage-box{
+    align-items: center;
+    text-align: left;
+    width: 250px;
+    padding: 16px;
+    margin-bottom: 150px;
+    border-radius: 10px;
+    box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
+}
+
+.stages{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.stage{
+    justify-content: space-between;
+}
+.stage-img{
+    height: 320px;
+    width: 560px;
+}
+
 /* INDUSTRIES SERVED BANNER */
 
 .iser{
@@ -625,3 +686,5 @@ b{
     font-weight: bold;
     color:black;
 }
+
+/*  */
