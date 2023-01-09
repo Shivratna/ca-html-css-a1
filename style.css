@@ -470,3 +470,66 @@ li{
         border-style: none;
 }
 
+/* NEWSLETTER FORM STYLING */
+
+.nws{
+    font-family: "Ubuntu",sans-serif;
+    background-color: #fede00;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.nws-txt{
+    padding-left: 50px;
+}
+
+.nws-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-head{
+    padding-bottom: 0px;
+    font-weight: bold;
+    font-size: 26px;
+}
+.msg{
+    margin-top: 0px;
+    padding-top: 5px; 
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.sbs-form{
+    display: flex;
+    padding-top: 25px;
+}
+
+input{
+    box-sizing: border-box;
+    display: flex;
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+}
+
+.sbs-btn{
+    width: 120px!important;
+    height: 40px!important;
+    text-align: center;
+    text-decoration: none;
+    background: #ee3425;
+    border-radius: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    border-color: transparent;
+}
+
