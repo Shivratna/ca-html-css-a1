@@ -533,3 +533,41 @@ input{
     border-color: transparent;
 }
 
+/* COMPANY INFORMATION */
+
+.cmp-info{
+    display: flex;
+    font-family: "Ubuntu",sans-serif;
+    background-color: #fede00;
+    padding: 30px 50px;
+    justify-content: space-around;
+}
+
+.sec{
+    text-align: left;
+    line-height: 200%;
+}
+
+.sec-head{
+    font-weight: bold;
+    font-family: "PT sans",sans-serif;
+    text-decoration: underline;
+    font-size: 18px;
+    color: #434343;
+}
+
+.secs{
+    padding: 0px 0px !important;
+    margin: 0px;
+}
+
+a{
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+b{
+    padding: 5px 0px;
+    font-size: 14px;
+}
+
