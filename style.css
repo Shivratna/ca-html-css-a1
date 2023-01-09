@@ -97,6 +97,11 @@ li{
     border-style: none;
 }
 
+.btn-arn{
+    align-items: center;
+    justify-content: left;
+    display: flex;
+}
 /* BANNER POSTER STYLING */
 
 .poster{
