@@ -263,6 +263,23 @@ li{
     box-shadow: 0 1px 6px rgb(169 188 218 / 65%);
 }
 
+.item:hover{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        justify-items: center;
+        width: 164px;
+        height: 140px;
+        padding: 10px 7px;
+        margin: 10px;
+        background: #fff;
+        border-color:#ee3425;
+        border-radius: 10px;
+        box-shadow: 0 1px 6px rgba(255, 0, 0, 0.65);
+}
+
 /* INFINITE CAROUSEL */
 
 .trust{
@@ -566,8 +583,45 @@ a{
     padding-top: 10px;
 }
 
+a:hover{
+    color: #ee3425 !important;
+}
+
 b{
     padding: 5px 0px;
     font-size: 14px;
 }
 
+
+/* PORTS AND ENDING STYLING */
+
+.ports{
+    display: flex;
+    font-family: "Ubuntu",sans-serif;
+    justify-content: space-around;
+}
+
+.port-box{
+    background-color:#EBBE00;
+    padding: 20px 50px;
+}
+
+.end{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cprt{
+    font-family: "PT sans",sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #434343;
+}
+
+.trms{
+    font-family: "PT sans",sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color:black;
+}
