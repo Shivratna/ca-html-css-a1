@@ -715,11 +715,10 @@ b{
 /* PORTS AND ENDING STYLING */
 
 .ports{
-
     display: flex;
     font-family: "Ubuntu",sans-serif;
     justify-content: space-between;
-    padding: 0px 50px;
+    padding: 10px 50px;
 }
 
 .port-box{
