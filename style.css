@@ -311,18 +311,19 @@ li{
 }
 
 .box{
-    padding: 30px 0px;
+    padding: 20px 0px;
     background-color: white;
 }
 
 .Carousel{
-    animation: carousel 300s linear infinite;
+    animation: carousel 1000s linear infinite;
     display: flex;
     flex-wrap: nowrap;
     overflow:hidden;
 }
 .Block{
     flex-shrink: 0;
+    padding: 0px 80px;
 }
 
 
@@ -460,8 +461,8 @@ li{
 /* GET STARTED BANNER */
 
 .gts{
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .gts-img{
