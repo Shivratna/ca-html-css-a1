@@ -70,7 +70,7 @@ li{
     top: 0;
     left: 0;
     z-index: 100;
-    background-image: url("https://cdn.cogoport.io/cms-prod/vault/original/home-banner-background-1.webp");
+    background-image: url("https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp");
     background-size: 100% 100% ;
     background-repeat: no-repeat;
 }
@@ -523,6 +523,10 @@ li{
 
 /* BLOGS SECTION STYLING */
 
+.blog{
+    padding-bottom: 30px;
+}
+
 .blog-box{
     padding: 0px 80px;
 }
@@ -603,14 +607,27 @@ li{
         border-style: none;
 }
 
+
+.des{
+    background-color: #fede00;
+    height: 70px;
+    width: 100%;
+}
+
+
+.curve-des{
+    background-color:white;
+    height: 70px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+}
+
 /* NEWSLETTER FORM STYLING */
 
 .nws{
     font-family: "Ubuntu",sans-serif;
     background-color: #fede00;
-    border-top-left-radius: 100%;
-    border-top-right-radius: 100%;
-    margin-top: 50px;
+    padding-top: 40px;
 }
 
 .nws-txt{
@@ -724,7 +741,7 @@ b{
 }
 
 .end{
-    padding: 20px 50px 0px 50px;
+    padding: 20px 50px 20px 50px;
     display: flex;
     justify-content: space-between;
 }
